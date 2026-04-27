@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf8">
+<meta name="author" content="Mason McNett">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GCCD Internship - About Me</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesheets/style.css">
+
+<style>
+
+.page-layout {
+	display: flex;
+	align-items: flex-start;
+	padding: 30px;
+	gap: 25px;
+}
+
+.intro {
+	display: block;
+}
+
+.pic_of_me {
+	float: left;
+	width: 240px;
+	height: auto;
+	margin: 0 20px 10px 0;
+	border: 1px solid black;
+}
+
+.main {
+	flex: 3;
+}
+
+.sidebar {
+	flex: 1;
+	border: 1px solid black;
+	padding: 15px;
+	margin-right: 0;
+}
+
+.sidebar h2 {
+	margin-top: 0;
+}
+
+@media screen and (max-width: 800px) {
+.page-layout {
+	flex-direction: column;
+}
+
+.sidebar {
+	width: 80%;
+	margin: 0 auto;
+}
+}
+
+h2 { 
+	clear: both;
+}
+
+h3 {
+	margin-bottom: 5px;
+	
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="topnav" id="myTopnav">
+
+  <img src="images/gccd-logo.png" alt="GCCD logo" class="nav-logo">
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+ <a href="index.html">Overview</a>
+  <a href="about_me.html">About Me</a>
+  <a href="gccd.html">About GCCD</a>
+  <a href="internship.html">My Internship</a>
+  <a href="resume.html">Resume</a>
+
+</div>
+
+	<header>
+    <h1>About Me And My Experience</h1>
+	</header>
+  
+	<div class="page-layout">
+
+	<main class="main">
+  
+	<div class="intro">
+  
+	<h2>About Me</h2>
+
+	<img src="images/mason.jpg" class="pic_of_me">
+
+	<p>
+    I am Mason McNett, a senior Environmental Science major graduating from
+	<a href="https://www.washjeff.edu/" target="_blank">Washington & Jefferson College </a>in 
+	May 2026, with a minor in Professional Writing. My academic interests
+	focus on biodiversity, ecosystem processes, and conservation practices 
+	that support efforts toward making the world more sustainable. Through my
+	coursework and field experiences, I have developed an interest in how 
+	environmental systems are studied and managed at both local and regional
+	scales. After graduation, I plan to pursue work with the Greene County 
+	Conservation District, particularly in nutrient management and stream 
+	restoration programs.
+	</p>
+
+</div>
+ 
+	<h2>Why I Chose This Field</h2>
+ 
+    <p>
+     I chose environmental science because ever since I was young I’ve been
+	 interested in nature, plants, and animals. I’ve always wanted to understand
+	 how the natural world works and what humanity’s place is in it. In high 
+	 school, my favorite classes were my natural science and biology courses,
+	 which is what really started pushing me toward environmental topics in college.
+    </p>
+	
+	<p> When I took an intro to environmental studies class in college,
+	I was introduced more into ecology, conservation, and sustainability. 
+	I learned a lot of things I was interested in, and it opened me up to 
+	that side of environmental science. Not long after taking it, I decided
+	to declare environmental science as my major.</p>
+	
+	<h2>Education & Relevant Courses</h2>
+	
+	<p>At W&J, I’ve taken a variety of environmental and biology-related courses
+	throughout my time here. Some of these include Field Biology, Invertebrate
+	Zoology, Ecology, multiple Biology courses, Environmental Ethics, and others.</p>
+	
+	<p>Through these classes, I’ve learned a range of important skills like data
+	collection, experimental design, field sampling methods, and basic data 
+	analysis. A lot of these courses also involved working in groups, both in 
+	the field and in lab settings, which helped build experience with 
+	collaboration and interpreting environmental data in real-world contexts.</p>
+	
+	<h2> Personal Interests</h2>
+	<p> Outside of school and work, I like spending time with my siblings and 
+	my girlfriend. I enjoy being outdoors, whether that’s just going for walks 
+	or exploring new places. I also like learning about new things when I get the chance.</p>
+	
+	<p>In my free time, I play video games, take care of plants and pets, and 
+	try to make time for reading and writing. I also enjoy watching movies and
+	TV shows and finding new ones to get into.</p>
+  </main>
+
+  <aside class="sidebar">
+
+	<h2>Projects & Coursework</h2>
+
+	<h3>Leaf Decomposition Study</h3>
+	<p>
+	Studied how leaf decomposition differs between urban and forested streams, 
+	finding that forested streams break down leaves at a faster rate.</p>
+
+	<h3>Tardigrade Research Paper</h3>
+	<p>Researched and wrote a paper on tardigrades and their ability to survive 
+	extreme conditions, including their potential relevance to space exploration 
+	and cancer research.</p>
+
+	<h3>GMO Policy Brief</h3>
+	<p>Wrote a policy brief on the use of GMOs, focusing on concerns about
+	herbicide-resistant traits spreading to wild plant populations.</p>
+
+	<h3>PFPP Forest Plot Project</h3>
+	<p>Worked with a group to establish and study forest plots over time to track 
+	changes in forest community composition.</p>
+
+	<h3>Invertebrate Collection</h3>
+	<p>Collected and identified a variety of invertebrates in the field, focusing
+	on classification and taxonomy.</p>
+
+  </aside>
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

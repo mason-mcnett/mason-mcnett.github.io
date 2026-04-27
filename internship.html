@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf8">
+<meta name="author" content="Mason McNett">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GCCD Internship - My Internship</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesheets/style.css">
+
+<style>
+
+
+.internship_section {
+	width: 80%;
+	max-width: 1000px;
+	margin: 40px auto;
+	overflow: auto;
+}
+
+.internship_section h2 {
+	margin-bottom: 10px;
+}
+
+.internship_img {
+	float: left;
+	width: 35%;
+	max-width: 300px;
+	margin-right: 20px;
+	border: 2px solid black;
+}
+
+.internship_text p {
+	margin-bottom: 12px;
+}
+
+@media screen and (max-width: 700px) {
+.internship_img {
+		float: none;
+		display: block;
+		width: 100%;
+		margin: 0 auto 15px auto;
+	}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="topnav" id="myTopnav">
+
+	<img src="images/gccd-logo.png" alt="GCCD logo" class="nav-logo">
+
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+	</a>
+
+	<a href="index.html">Overview</a>
+	<a href="about_me.html">About Me</a>
+	<a href="gccd.html">About GCCD</a>
+	<a href="internship.html">My Internship</a>
+	<a href="resume.html">Resume</a>
+
+</div>
+
+<header>
+  <h1>My Internship Experience</h1>
+</header>
+
+<article>
+
+  <p>During my time with the Greene County Conservation District, I worked on 
+  several field-based programs that focused on public health, agriculture, and 
+  stream conservation. My responsibilities varied throughout the week depending
+  on program needs, but all of them connected back to environmental monitoring
+  and land stewardship across the county.</p>
+  
+</article>
+
+<article class="internship_section">
+
+	<img src="images/mosquito.jpg" class="internship_img">
+
+	<div class="internship_text">
+    <h2>West Nile Virus (WNV) Program</h2>
+
+    <p>I was essentially running the West Nile Virus program, driving the 
+	county truck to predetermined mosquito trapping locations within Greene
+	County. I would set the trap one day and return the next day to collect
+	the mosquitoes.</p>
+
+    <p>When collecting, I used dry ice to knock the mosquitoes out so they 
+	could be placed into vials. These samples were then shipped to a lab in 
+	Harrisburg, PA to be tested for vector-borne diseases such as West Nile Virus,
+	which in rare cases can lead to inflammation of the brain or spinal cord.</p>
+	</div>
+
+</article>
+
+<article class="internship_section">
+
+	<img src="images/ticks.jpg" class="internship_img">
+
+	<div class="internship_text">
+    <h2>Tick Drags and Collection</h2>
+
+	<p>Once every two weeks, I performed tick drags. I would walk through
+	grassy or leaf-littered areas with a square cloth attached to a rod and
+	rope, dragging it to collect ticks.
+    </p>
+
+    <p>After a set distance, I would check the cloth for ticks and collect 
+	them using forceps. They were placed into vials with ethanol and sent to
+	a lab for testing for Lyme disease, which can cause illness in humans, 
+	along with other vector-borne diseases.</p>
+	</div>
+
+</article>
+
+<article class="internship_section">
+
+	<img src="images/soil.jpg" class="internship_img">
+
+	<div class="internship_text">
+    <h2>Farm Visits and Soil Sampling</h2>
+
+    <p>Occasionally, when West Nile Virus duties were finished for the week, 
+	I assisted staff on farm visits to check in with landowners enrolled in 
+	district programs. These visits included looking at new improvements like
+	cattle water troughs and stream crossings.</p>
+
+    <p>We also collected soil samples across cropland to determine nutrient 
+	levels. These samples were sent to Penn State University and used to help
+	farmers make decisions about practices like lime application or manure 
+	management to improve soil health and yield.</p>
+  </div>
+
+</article>
+
+<article class="internship_section">
+
+	<img src="images/stream.jpg" class="internship_img">
+
+	<div class="internship_text">
+    <h2>Stream Restoration Visits</h2>
+
+    <p>When West Nile Virus duties were complete for the week, I also 
+	assisted staff on stream restoration visits with landowners to discuss
+	conditions of streams on their property.</p>
+
+    <p>These visits focused on restoration options such as stone placement
+	  or planting vegetation to reduce erosion and improve streambank stability.</p>
+  </div>
+
+</article>
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

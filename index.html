@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf8">
+<meta name="author" content="Mason McNett">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GCCD Internship - Home Page</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylesheets/style.css">
+
+<style>
+
+.featured {
+	display: flex;
+	align-items: center;
+	width: 75%;
+	margin: 30px auto;
+	border: 1.5px solid black;
+}
+
+.featured-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	padding: 30px;
+}
+
+.gravid-image {
+	width: 100%;
+	height: auto;
+}
+
+.featured-text {
+	width: 60%;
+	padding: 10px;
+}
+
+.featured-text h2 {
+	margin-top: 0;
+}
+
+@media (max-width: 800px) {
+
+.featured {
+    flex-direction: column;
+    width: 90%;
+  }
+
+.featured-image {
+    width: 90%;
+    padding: 10px 0;
+    order: 1;
+  }
+
+.featured-text {
+    width: 100%;
+    order: 2;
+    padding: 20px;
+  }
+
+.gravid-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="topnav" id="myTopnav">
+
+  <img src="images/gccd-logo.png" alt="GCCD logo" class="nav-logo">
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+  <a href="index.html">Overview</a>
+  <a href="about_me.html">About Me</a>
+  <a href="gccd.html">About GCCD</a>
+  <a href="internship.html">My Internship</a>
+  <a href="resume.html">Resume</a>
+
+</div>
+
+	<header>
+    <h1>My Summers At Greene County Conservation District</h1>
+	</header>
+  
+	<article class="intro">
+	<h2>My Time in the Field with GCCD</h2>
+	<p>
+      Over the past two summers, I worked with the Greene County Conservation 
+      District, gaining hands-on experience in environmental fieldwork and local 
+      conservation efforts. Through this internship, I was involved in data 
+      collection, site assessments, and learning how conservation practices 
+      are applied at the local level. This website highlights the work I 
+      contributed to, the skills I developed, and what I learned about the 
+      importance of protecting natural resources in my community. 
+    </p> 
+	
+	<p>Much of this work took place outdoors in field settings across Greene 
+	County, where conservation efforts are directly connected to the land and 
+	communities they serve.</p>
+	
+	<p>This website highlights the work I contributed to, the skills I 
+	developed, and what I learned about the importance of supporting 
+	environmental quality and conservation efforts in my community. Explore 
+	the different sections of this site to learn more about me, 
+	the organization, and specific fieldwork experiences from my internship.</p>
+	</article>
+
+	<div class="featured">
+
+    <div class="featured-image">
+      <img src="images/gravid.jpeg" class="gravid-image">
+    </div>
+
+    <div class="featured-text">
+      <h2>Featured Experience</h2>
+
+      <p>
+        During my internship with the Greene County Conservation District, I 
+		helped set up gravid mosquito traps at various sites across the county.
+		These traps are placed near standing water and are designed to attract 
+		mosquitoes that are ready to lay eggs, allowing for targeted sampling 
+		in the field.
+      </p>
+	  
+	   <p>
+        After collection, the traps were processed and the mosquitoes were sent
+		for testing to monitor for the presence of mosquito-borne diseases in 
+		the area. This work involved traveling to different locations, setting 
+		up equipment in the field, and assisting with environmental monitoring 
+		efforts across the county.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+<article>
+
+  <h2>Why This Work Matters</h2>
+
+  <p>
+    The work I assisted with during my internship focused on field-based monitoring and assessment
+    efforts that support environmental and public health goals in Greene County. This included setting
+    up mosquito gravid traps and conducting tick drags, both of which help track the presence of
+    disease-carrying insects in different areas of the county.
+  </p>
+
+  <p>
+    I also participated in field site visits with district staff to help evaluate stream conditions,
+    ensure regulatory standards were being met, and assess potential sites for future stream restoration
+    projects. These experiences showed how routine fieldwork contributes to larger decisions about land
+    management, water quality, and conservation planning.
+  </p>
+
+</article>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
